@@ -31,4 +31,12 @@ public class ListNode {
         }
         return root.next;
     }
+
+    public static void print(ListNode node) {
+        ListNode tmp = node;
+        while (tmp != null) {
+            System.out.println(tmp.val);
+            tmp = tmp.next;
+        }
+    }
 }
